@@ -2,7 +2,6 @@
 
 <img src="./assets/profile-header.svg" width="100%" alt="Yicheng Cai：信号处理、Agent 系统与边缘计算" />
 
-# 蔡羿成 · Yicheng Cai
 
 **物理建模与信号处理 · Agent 系统 · 可复现的工程实践**
 

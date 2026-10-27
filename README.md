@@ -40,7 +40,22 @@
 
 ---
 
-### 02 / Lianxu Agent Workbench
+### 02 / ESP32 × Linux Edge Scheduler
+
+**合作开发 · 合成数据驱动的端侧上传与边缘任务调度。**
+
+参与 ESP32 / ESP-IDF 与 Linux C11 边缘处理链的合作开发，采用 **TCP / NDJSON、有界队列与单工作线程**，实现 **FIFO / 非抢占优先级策略**、滤波及 RMS 计算，并保留逐任务运行日志。
+
+- **工程验证**：完成 ESP32 固件构建、15 项真实 C 服务集成测试及 ASan / UBSan 检查；使用相同合成负载开展两种策略的重复对照。
+- **项目阶段**：应用层非抢占任务调度；真实接板、无线链路与断线恢复待验证。
+
+<sub>C11 · ESP32 / ESP-IDF · Linux / POSIX · TCP · Python</sub>
+
+**[查看我的 Fork →](https://github.com/Caixianseng/esp32-linux-edge-scheduler)** · [合作原仓库](https://github.com/BJTURylynn/esp32-linux-edge-scheduler) · [验证记录](https://github.com/Caixianseng/esp32-linux-edge-scheduler/blob/main/docs/validation.md)
+
+---
+
+### 03 / Lianxu Agent Workbench
 
 **把多模型协作组织成有依赖、有审查、有记录的任务流程。**
 
@@ -55,7 +70,7 @@
 
 ---
 
-### 03 / Memory Migration Permission Pilot
+### 04 / Memory Migration Permission Pilot
 
 **记忆迁移之后，谁还能读、能否转交、如何撤权？**
 
@@ -79,17 +94,6 @@
 | Agent 与工具开发 | Node.js、模型 API、CLI 适配、任务依赖、审查与有限重试 |
 | 工程验证 | Git、离线回归、跨平台 CI、日志取证、实验与复现文档 |
 | 嵌入式合作实践 | ESP32 / ESP-IDF、Linux C / POSIX、TCP 数据链路与应用层任务队列 |
-
-<details>
-<summary><b>合作项目：ESP32 × Linux 边缘任务调度</b></summary>
-
-参与 ESP32 合成数据上传与 Linux 边缘处理链的合作开发，涉及 TCP 分帧、有界队列、FIFO / 非抢占优先级策略、滤波与 RMS 计算。
-
-目前完成固件编译与 Linux 服务集成检查；真实接板和无线链路验证待完成。
-
-[查看合作仓库 →](https://github.com/BJTURylynn/esp32-linux-edge-scheduler)
-
-</details>
 
 <a id="connect"></a>
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Yicheng Cai：信号处理、Agent 系统与边缘计算" />
+<img src="./assets/profile-cover.png" width="100%" alt="蓝天与海边，蓝发角色抱着海豚玩偶" />
 
 
 **物理建模与信号处理 · Agent 系统 · 可复现的工程实践**

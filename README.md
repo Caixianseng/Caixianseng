@@ -1,7 +1,11 @@
 <div align="center">
 
-<img src="./assets/profile-header-animated.gif" width="100%" alt="Yicheng Cai · Signal Processing · Agent Systems · Edge Computing — 海边循环动图横幅" />
+<sub>CAIXIANSENG / RESEARCH + ENGINEERING</sub>
 
+# Yicheng Cai
+
+Signal Processing · Agent Systems  
+· Edge Computing
 
 **物理建模与信号处理 · Agent 系统 · 可复现的工程实践**
 

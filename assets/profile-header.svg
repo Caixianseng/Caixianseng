@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Yicheng Cai — Research and Engineering</title>
+  <desc id="desc">Caixianseng. Signal Processing, Agent Systems and Edge Computing. A deep navy banner with an abstract radar signal and connected agent nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071726"/>
+      <stop offset="1" stop-color="#102C43"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="822" y1="166" x2="1146" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AE1D5" stop-opacity="0.35"/>
+      <stop offset="0.45" stop-color="#5AE1D5"/>
+      <stop offset="1" stop-color="#91C9FF"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#2A7D94" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2A7D94" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
+  <path d="M0 299H1200" stroke="#5AE1D5" stroke-opacity="0.3" stroke-width="2"/>
+  <rect x="0" y="47" width="5" height="197" rx="2.5" fill="#5AE1D5"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="57" fill="#8FBCD1" font-size="17" font-weight="700" letter-spacing="2.2">CAIXIANSENG / RESEARCH + ENGINEERING</text>
+    <text x="54" y="143" fill="#F2F8FF" font-size="76" font-weight="700" letter-spacing="-2">Yicheng Cai</text>
+    <rect x="59" y="166" width="50" height="3" rx="1.5" fill="#5AE1D5"/>
+    <text x="58" y="212" fill="#C1D9EC" font-size="29" font-weight="400">Signal Processing · Agent Systems</text>
+    <text x="58" y="250" fill="#C1D9EC" font-size="29" font-weight="400">· Edge Computing</text>
+  </g>
+
+  <g aria-hidden="true" fill="none">
+    <ellipse cx="997" cy="150" rx="203" ry="146" fill="url(#aura)"/>
+    <path d="M790 48V253" stroke="#567C98" stroke-opacity="0.22"/>
+    <g stroke="#618CA7" stroke-opacity="0.12" stroke-width="1">
+      <path d="M835 75H1153M835 125H1153M835 175H1153M835 225H1153"/>
+      <path d="M866 49V251M926 49V251M986 49V251M1046 49V251M1106 49V251"/>
+    </g>
+
+    <g stroke="#6AB8CF" stroke-opacity="0.28">
+      <circle cx="1015" cy="149" r="79"/>
+      <circle cx="1015" cy="149" r="106" stroke-dasharray="3 9"/>
+      <path d="M1015 43V255M909 149H1121"/>
+      <path d="M1015 149L1086 75" stroke="#5AE1D5" stroke-opacity="0.46"/>
+    </g>
+
+    <path d="M820 172H846L859 165L872 179L888 149L904 194L921 136L939 201L957 119L975 211L993 143L1010 177L1024 158L1038 172H1153" stroke="url(#signal)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <g stroke="#91C9FF" stroke-opacity="0.55" stroke-width="1.7">
+      <path d="M889 88L970 80L1055 107L1125 78M970 80L1015 149L1055 107M1015 149L1085 219L1134 189M1015 149L918 225M1055 107L1134 189M918 225L1085 219"/>
+    </g>
+    <g fill="#102C43" stroke="#91C9FF" stroke-width="2">
+      <circle cx="889" cy="88" r="5"/>
+      <circle cx="970" cy="80" r="7"/>
+      <circle cx="1055" cy="107" r="6"/>
+      <circle cx="1125" cy="78" r="5"/>
+      <circle cx="918" cy="225" r="5"/>
+      <circle cx="1085" cy="219" r="6"/>
+      <circle cx="1134" cy="189" r="5"/>
+    </g>
+    <circle cx="1015" cy="149" r="12" fill="#102C43" stroke="#5AE1D5" stroke-width="2"/>
+    <circle cx="1015" cy="149" r="4" fill="#5AE1D5"/>
+  </g>
+</svg>
